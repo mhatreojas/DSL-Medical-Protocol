@@ -1,0 +1,4 @@
+IF OxygenSaturation < 94 THEN Administer(Oxygen, 2L/min)
+IF Fever > 38 THEN Administer(Paracetamol, 500mg)
+IF HeartRate > 120 THEN Alert(Cardiologist)
+IF BloodPressure < 90 THEN Administer(Saline, 500ml)
